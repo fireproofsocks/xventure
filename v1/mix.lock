@@ -1,0 +1,8 @@
+%{
+  "cowrie": {:hex, :cowrie, "0.3.1", "eeaba05f55f605611cd1e8d2677ee5687280d088d21d213f60b700715ece56f6", [:mix], [{:gettext, ">= 0.0.0", [hex: :gettext, repo: "hexpm", optional: false]}, {:table_rex, "~> 3.0", [hex: :table_rex, repo: "hexpm", optional: false]}], "hexpm", "f2b28cc94318aa221ac3b2a638b683abfebd334e270b7624f4b2bbae2ad35628"},
+  "figlet": {:hex, :figlet, "0.2.0", "06ac8eee39a9d5bc70fd4184d57207c8c1ec8f493b0cb71b6e93ce1dcd91b3b8", [:mix], [], "hexpm", "b5b587500f03e544c98f8c6689daaaae188e2f65d555341cf3229fe776af7dc3"},
+  "gettext": {:hex, :gettext, "0.18.2", "7df3ea191bb56c0309c00a783334b288d08a879f53a7014341284635850a6e55", [:mix], [], "hexpm", "f9f537b13d4fdd30f3039d33cb80144c3aa1f8d9698e47d7bcbcc8df93b1f5c5"},
+  "table_rex": {:hex, :table_rex, "3.1.1", "0c67164d1714b5e806d5067c1e96ff098ba7ae79413cc075973e17c38a587caa", [:mix], [], "hexpm", "678a23aba4d670419c23c17790f9dcd635a4a89022040df7d5d772cb21012490"},
+  "yamerl": {:hex, :yamerl, "0.8.1", "07da13ffa1d8e13948943789665c62ccd679dfa7b324a4a2ed3149df17f453a4", [:rebar3], [], "hexpm", "96cb30f9d64344fed0ef8a92e9f16f207de6c04dfff4f366752ca79f5bceb23f"},
+  "yaml_elixir": {:hex, :yaml_elixir, "2.8.0", "c7ff0034daf57279c2ce902788ce6fdb2445532eb4317e8df4b044209fae6832", [:mix], [{:yamerl, "~> 0.8", [hex: :yamerl, repo: "hexpm", optional: false]}], "hexpm", "4b674bd881e373d1ac6a790c64b2ecb69d1fd612c2af3b22de1619c15473830b"},
+}

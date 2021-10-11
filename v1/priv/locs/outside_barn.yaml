@@ -1,0 +1,9 @@
+%YAML 1.2
+---
+content: >
+  You are standing outside an old red clapboard barn. A large door is open
+  to the dim inside.
+
+exits:
+  north: clearing
+  in: inside_barn

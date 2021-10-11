@@ -1,0 +1,7 @@
+%YAML 1.2
+---
+content: >
+  You are in the hayloft of the barn.
+
+exits:
+  down: inside_barn

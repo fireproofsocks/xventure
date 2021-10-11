@@ -55,7 +55,7 @@ defmodule Xventure do
   defp game_loop("go " <> dest, %State{loc: loc} = state) do
     case loc_data(loc) do
       %{"exits" => %{^dest => new_loc}} ->
-        game_loop("look", update(state, :loc, new_loc))
+        game_loop("look", Map.put(state, :loc, new_loc))
 
       _ ->
         Cowrie.error("You can't go #{dest} from here.")
@@ -90,8 +90,4 @@ defmodule Xventure do
   end
 
   defp loc_data(location_id), do: Loc.load!(location_id)
-
-  defp update(state, key, value) do
-    Map.put(state, key, value)
-  end
 end

@@ -1,0 +1,10 @@
+%YAML 1.2
+---
+content: >
+  You are inside the old red barn. It smells of dust and manure.
+  
+  There is a wooden ladder going up through a hatch.
+
+exits:
+  out: outside_barn
+  up: hayloft

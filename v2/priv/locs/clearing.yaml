@@ -1,0 +1,8 @@
+%YAML 1.2
+---
+content: >
+  You are standing in a grassy clearing on the crest of a gentle hill.
+  There is a gravel path leading to a red barn to the south.
+
+exits:
+  south: outside_barn
